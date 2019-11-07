@@ -2,8 +2,6 @@
 	$( "#footerind" ).click(function() {
 			window.location.hash = "#space=industrial-warehouse"
 			location.reload();
-		$(document).ready(function(){
-    			$(this).scrollTop(0);
 	});
 	$( "#footerlight" ).click(function() {
 			window.location.hash = "#space=light-industrial"
