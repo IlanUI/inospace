@@ -2,7 +2,6 @@
 	$( "#footerind" ).click(function() {
 			window.location.hash = "#space=industrial-warehouse"
 			location.reload();
-			window.scrollTop(0);
 	});
 	$( "#footerlight" ).click(function() {
 			window.location.hash = "#space=light-industrial"
@@ -26,6 +25,5 @@
 	});
   	$( "#dropdownjhb, #footerjhb" ).click(function() {
   			window.location.hash = "#city=johannesburg"
-			window.scrollTop(0);
 			location.reload();
 	});
