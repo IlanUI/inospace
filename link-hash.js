@@ -21,10 +21,11 @@
 			location.reload();
 	});
 	$( "#dropdowncpt, #footercpt" ).click(function() {
-  		window.location.hash = "#city=cape-town"
+  			window.location.hash = "#city=cape-town"
 			location.reload();
 	});
   	$( "#dropdownjhb, #footerjhb" ).click(function() {
-  		window.location.hash = "#city=johannesburg"
+  			window.location.hash = "#city=johannesburg"
+			window.scrollTop(0);
 			location.reload();
 	});
